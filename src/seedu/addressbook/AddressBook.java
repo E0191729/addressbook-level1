@@ -44,7 +44,7 @@ public class AddressBook {
     /**
      * Version info of the program.
      */
-    private static final String VERSION = "AddessBook Level 1 - Version 1.0";
+    private static final String VERSION = "AddessBook Level 1 - Version 1.01";
 
     /**
      * A decorative prefix added to the beginning of lines printed by AddressBook
@@ -139,7 +139,8 @@ public class AddressBook {
     /* We use a String array to store details of a single person.
      * The constants given below are the indexes for the different data elements of a person
      * used by the internal String[] storage format.
-     * For example, a person's name is stored as the 0th element in the array.
+     * For example, a person's name is stored as the 0th element in the array,
+     * *Phone number as the 1st element and the email as the 2nd element.
      */
     private static final int PERSON_DATA_INDEX_NAME = 0;
     private static final int PERSON_DATA_INDEX_PHONE = 1;
