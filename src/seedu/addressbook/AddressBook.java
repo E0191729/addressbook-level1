@@ -6,6 +6,7 @@ package seedu.addressbook;
  * Yes, it is possible to write non-OO code using an OO language.
  * ====================================================================
  */
+// This is the second fork for this project. The previous fork was done on the wrong git page 
 
 import java.io.File;
 import java.io.FileNotFoundException;
